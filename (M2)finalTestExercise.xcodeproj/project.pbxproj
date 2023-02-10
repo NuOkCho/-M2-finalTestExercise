@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4448B19D2995E6DD004223BB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448B19C2995E6DD004223BB /* main.swift */; };
+		4448B1A42995E752004223BB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448B1A32995E752004223BB /* Menu.swift */; };
+		4448B1A62995E775004223BB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448B1A52995E775004223BB /* Game.swift */; };
+		4448B1A82995E7A5004223BB /* HumanVsHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448B1A72995E7A5004223BB /* HumanVsHuman.swift */; };
+		4448B1AA2995E7D1004223BB /* HumanVsBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448B1A92995E7D1004223BB /* HumanVsBot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		4448B1992995E6DD004223BB /* (M2)finalTestExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "(M2)finalTestExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4448B19C2995E6DD004223BB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4448B1A32995E752004223BB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4448B1A52995E775004223BB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4448B1A72995E7A5004223BB /* HumanVsHuman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanVsHuman.swift; sourceTree = "<group>"; };
+		4448B1A92995E7D1004223BB /* HumanVsBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanVsBot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				4448B19C2995E6DD004223BB /* main.swift */,
+				4448B1A32995E752004223BB /* Menu.swift */,
+				4448B1A52995E775004223BB /* Game.swift */,
+				4448B1A72995E7A5004223BB /* HumanVsHuman.swift */,
+				4448B1A92995E7D1004223BB /* HumanVsBot.swift */,
 			);
 			path = "(M2)finalTestExercise";
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4448B1A82995E7A5004223BB /* HumanVsHuman.swift in Sources */,
+				4448B1AA2995E7D1004223BB /* HumanVsBot.swift in Sources */,
+				4448B1A42995E752004223BB /* Menu.swift in Sources */,
+				4448B1A62995E775004223BB /* Game.swift in Sources */,
 				4448B19D2995E6DD004223BB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
